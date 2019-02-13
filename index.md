@@ -1,7 +1,7 @@
 # CheckPoint
 Laboratorios para Checkpoint
 
-![Diagrama](diagrama.jpeg)
+![Diagrama](img/diagrama.jpeg)
 
 Credenciales default (admin/q1w2e3r4)
 
