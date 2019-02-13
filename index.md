@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# CheckPoint
+Laboratorios para Checkpoint
 
-You can use the [editor on GitHub](https://github.com/rakeru2006/cursochkp/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Credenciales default (admin/q1w2e3r4)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Laboratorio 1: Configuracion de direccionamiento IP interno
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+|Equipo | hostname | IP | Netmaask |
+|--- | --- | --- | --- |
+|Consola | cplabo | 10.0.1.250 | 255.255.255.0 |
+|gw1 | fw1 | 10.0.1.251 | 255.255.255.0 |
+|gw2 | fw2 | 10.0.1.252 | 255.255.255.0 |
+|linux | cliente1 | 10.0.1.10 | 255.255.255.0 |
 
-```markdown
-Syntax highlighted code block
+# Objetivos:
 
-# Header 1
-## Header 2
-### Header 3
+* Configurar las direcciones IP en los equipos de la tabla
+* Lograr que ping de la consola a linux responda
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+# Apendice
 
-**Bold** and _Italic_ and `Code` text
+## CheckPoint CLI
 
-[Link](url) and ![Image](src)
+```
+# Mostrar IP
+show interface <ifname> ipv4-address
+
+# Configurar IP
+set interface <ifname> ipv4-address <ip> mask-leng <mask length>
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Configuracion IP Linux
 
-### Jekyll Themes
+```
+# Mostrar
+ifconfig <ifname>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rakeru2006/cursochkp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Configurar IP
+sudo ifconfig <ifname> <ip> netmask <netmask>
+```
