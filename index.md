@@ -1,6 +1,8 @@
 # CheckPoint
 Laboratorios para Checkpoint
 
+![Diagrama](https://octodex.github.com/images/yaktocat.png)
+
 Credenciales default (admin/q1w2e3r4)
 
 # Laboratorio 1: Configuracion de direccionamiento IP interno
