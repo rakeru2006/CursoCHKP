@@ -8,7 +8,7 @@ Credenciales default (admin/q1w2e3r4)
 # Laboratorio 1: Configuracion de direccionamiento IP interno
 
 
-|Equipo | hostname | IP | Netmaask |
+|Equipo | hostname | IP | Netmask |
 |--- | --- | --- | --- |
 |Consola | cplabo | 10.0.1.250 | 255.255.255.0 |
 |gw1 | fw1 | 10.0.1.251 | 255.255.255.0 |
