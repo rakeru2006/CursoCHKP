@@ -10,7 +10,7 @@
 |gw2 | fw2 | 10.0.1.252 | 255.255.255.0 |
 |linux | cliente1 | 10.0.1.10 | 255.255.255.0 |
 
-# Objetivos:
+## Objetivos:
 
 * Configurar las direcciones IP en los equipos de la tabla
 * Lograr que ping de la consola a linux responda
@@ -28,15 +28,16 @@ admin/q1w2e3r4
 Laboratorio 1:
 
 Prendes solo vas a usar
-100-localserver
-105-WindowsServer
-4-mgmt
-3-gw
-6-jump	 
 
-=1 Poner IP a la consola=
-Entramos a (4mgmt) en el laboratorio e
-set interface eth0 ipv4-address 10.0.1.4 mask-length 28
+* 100-localserver
+* 105-WindowsServer
+* 4-mgmt
+* 3-gw
+* 6-jump	 
+
+= 1 Poner IP a la consola=
+- Entramos a (4mgmt) en el laboratorio e
+-- set interface eth0 ipv4-address 10.0.1.4 mask-length 28
 set interface eth0 state on
 Para comprobar que la guardo
 Show interface eth0
