@@ -11,7 +11,7 @@ Credenciales default (admin/q1w2e3r4)
 * [Laboratorio 2: Instalacion de CheckPoint](labs/laboratorio2.md)
 * [Laboratorio 3: Texto](labs/laboratorio3.md)
 * Laboratorio 4
-* Laboratorio 5
+* Laboratorio 6
 
 
 # Informacion importante
