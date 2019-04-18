@@ -1,6 +1,6 @@
 # Laboratorio 1: Configuracion de direccionamiento IP interno
 
-
+Aqui va el laboatorio 1
 
 
 |Equipo | hostname | IP | Mascara de red |
