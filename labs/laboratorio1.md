@@ -13,7 +13,7 @@
 * Configurar las direcciones IP en los equipos de la tabla
 * Lograr que ping de la consola a linux responda
 
-### Paso 1 Acceso o Loging
+### Paso 1 Acceso al laboratorio
 
 La URL para acceder al laboratorio es la siguiente
 
