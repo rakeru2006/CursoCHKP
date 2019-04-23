@@ -12,6 +12,7 @@ Credenciales default (admin/q1w2e3r4)
 * [Laboratorio 3: Texto](labs/laboratorio3.md)
 * Laboratorio 4
 * Laboratorio 6
+* [Laboratorio MS-DOS: Uso de comandos ](labs/laboratorioMSDOS.md)
 
 
 # Informacion importante

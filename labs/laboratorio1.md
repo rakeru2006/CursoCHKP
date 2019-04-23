@@ -27,8 +27,8 @@ Seleccionar  Html5 console
 Para este ejemplo puedes usar
 
 Credenciales:
-jvaldivia
-Q1w2e3r4.
+apellido
+pw
 Html5 Console
 
 admin/q1w2e3r4
@@ -140,7 +140,7 @@ Formas de abrir (Command prompt) de MS-DOS
 
 En la terminal de (Command prompt) de MS-DOS y tecleamos "ipconfig" podemos ver que despliega informacion de la tarjeta de red  y la ip asignada  que es 10.0.1.6
 
-![ipconfig](img/MSipconfig.png)
+![ipconfig](img/MSipconfiig.png)
 
 
 probamos el estado de la comunicación del host local 10.0.1.6 con la consola con IP 10.0.1.4. Por medio del envío de paquetes ICMP, diagnostica el estado, velocidad y calidad de una red determinada.
@@ -149,44 +149,17 @@ probamos el estado de la comunicación del host local 10.0.1.6 con la consola co
 
 ![ping](img/MSping.png)
 
-#### Mas comandos Comando promp de MS-DOS
 
-- help : muestra una lista con los comandos disponibles.  help (nombre de comando) muestra información sobre un
-comando específico .
+#### Team viewer
 
-
-- tracert: Permite conocer los paquetes que vienen desde un host (punto de red). También se obtiene una estadística del RTT o latencia de red de esos paquetes, ofreciendo una estimación de la distancia a la que están los extremos de la comunicación.
-
-![tracert](img/MStracert.png)
-
-- pathping: Combina la utilidad de ping y tracert. Es más informativo, por lo que tarda más tiempo para ejecutar. Después de enviar los paquetes a un destino determinado, se analiza la ruta tomada y se calcula la pérdida de paquetes y proporciona detalles entre dos host.
-
-![pathping](img/MSpathping.png)
-
-- getmac: Obtiene la mac del equipo donde se ejecuta. La dirección MAC es un identificador de 48 bits determinado y configurado por el IEEE y el fabricante (24 bits cada uno). Conocida también como dirección física es única para cada dispositivo.
-
-![getmac](img/MSgetmac.png)
-
-- nslookup: Se emplea para conocer si el DNS está resolviendo correctamente los nombres y las IPs. También nos permite averiguar la dirección IP detrás de un determinado nombre de dominio. Si deseas convertir una dirección IP en un nombre de dominio, sólo tienes que escribirlo en el navegador y ver a dónde conduce.
-
-![nslookup](img/MSnslookop.png)
-
-- netstat: Comando potente que muestra estadísticas de la red y permite diagnósticos y análisis. Por defecto, muestra un listado de las conexiones activas de una computadora, tanto entrantes como salientes. Incluye el protocolo en uso, las tablas de ruteo, las estadísticas de las interfaces y el estado de la conexión.
-
-![netstat](img/MSnetstat.png)
-
-- systeminfo : sirve para obtener la información sobre la PC o sistema como nombre del sistema, el procesador, la memoria RAM, la placa base o el almacenamiento interno que tiene.
-
-#### Team veawer
-
-Podemos usar Teamvewer para visualizar mejor la pantalla ya que es muy pequena para eso tienes quue instalar desde el sitio web e instalrlo en tu pc para acceder de forma remota al PC https://www.teamviewer.com/en-us/?pid=google.tv.teamviewer_misspelling-new_hp.s.us&gclid=EAIaIQobChMIp4yMg4Ld4QIVB6rsCh1m-QU6EAAYASAAEgIGS_D_BwE
+Podemos usar Teamvewer para visualizar mejor la pantalla ya que es muy pequena para eso tienes que instalar desde el sitio web e instalarlo en tu pc para acceder de forma remota al PC https://www.teamviewer.com/en-us/?pid=google.tv.teamviewer_misspelling-new_hp.s.us&gclid=EAIaIQobChMIp4yMg4Ld4QIVB6rsCh1m-QU6EAAYASAAEgIGS_D_BwE
 
 
 
 
 
 
-En Windows abrimos un navegadoe explorer y acedemos a la IP 10.0.1.4
+En Windows abrimos un navegador explorer y acedemos a la IP 10.0.1.4
 
 nos despliega una pagina que indica que no es un lugar seguro , damos click en la parte inferior donde dice
 
