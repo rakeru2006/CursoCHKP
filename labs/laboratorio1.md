@@ -174,10 +174,159 @@ y despues nievamente en la parte inferior en
 
 Desde el windows la intalacion via teamviewer
 Abrimos en el brouser explorer  
+
+#### INSTALACION DE LA CONSOLA CON GUI
+
 Lo instalamos con el UI user interface paso a paso
 Https://10.0.1.4
+
+
+![InsConsola](img/1Instalcionconsola.png)
  E instaamos solo la consola
-Ponemos el default gateway que es la IP q nos sacara de esa red en este caso 10.0.1.1
+ escribimos el nombre de usuario y pasword que se eligio anterior mente.
+
+![FirsTimeConfiguration](img/2Instalcionconsola.png)
+
+En este punto puedes cmptobar la version que instalaras para este caso es checkpoint R80.10
+
+
+![DeploimentOptions](img/3Instalcionconsola.png)
+
+En esta parte puedes Elegir instalar desde Checlpoint CLoud o desde USB, tambien para relaizar alguna recuperacion del sistema con el ultimo back up o snapshot que se haya guardado es importante realizar back ups cuandomenos una vez al mes para seguir con las mejores practias de fabricante
+
+![ManagementConections](img/4Instalcionconsola.png)
+
+Aqui configuraremos las interfaces con la IP que definimos en el laboratorio,
+
+eth0:      10.0.1.4
+
+Mascara:  de 28
+Nota en ip calc  http://jodies.de/ipcalc podemos calcular la mascara de forma rapida
+
+ 255.255.255.240
+
+
+![DeviceInformacion](img/5Instalcionconsola.png)
+
+Este es el nombre con el que identificaremos la consola
+Nota no dejar espacios en el nombre, los demas datos se configuran solo si tienes DNS definidos. Damos Clck en next.
+
+HOST NAME : PrimerConsola
+
+![DateandTimeSettings](img/6Instalcionconsola.png)
+
+El tiempo es muy importante cuando se trabaja con clusters es importante para la comunicacion, verifica que esta en tu zona horaria de lo cntratio selecciona el simbolo A hacia abajo y elige el correcto de la lista.
+
+![InstalationType](img/7Instalcionconsola.png)
+
+En esta ventana tu debes elegir que tipo de instalacion realizaras si firewall y consola o multi domine.
+
+![Products](img/8Instalcionconsola.png)
+En esta ventana se debe especificar si realizaras una instalacion standalone o por separado consola o Fireall
+para este caso elegimos solo Consola
+
+
+![SecurityAdministration](img/9Instalcionconsola.png)
+Es importante que guardes esta informacion ya que cada ves que quieras acceder a la consola te solicitara esta inforamacion para mi caso yo use
+
+Este es un administrador diferente de admin o sudo
+User: Rake
+Pw:   q1w2e3r4
+
+ ![SecurityManagementGUI](img/10Instalcionconsola.png)
+ Por el momento elegimos ¨ Any adress¨ para que nos permita configurarlo desde cualquier PC .
+
+![SumaryConfiguration](img/11Instalcionconsola.png)
+En esta ventana puedes validar que solo instañaremos la consola.
+
+![SumaryConfiguration](img/12Instalcionconsola.png)
+  Nos pregunta si estas seguro de que quieres continuar con los cambios legimos ¨Yes¨.
+
+  ![SumaryConfiguration](img/13Instalcionconsola.png)
+  Comienza la instaacion e indica el porsentaje de avance.
+
+  ![SumaryConfiguration](img/14Instalcionconsola.png)
+
+  Al terminar si todo es correcto,  nos indicara una palomita en la ventana
+
+
+  #### INSTALACION DEL FIREWALL CON GUI
+
+  Lo instalamos con el UI user interface paso a paso
+  Https://10.0.1.4
+
+
+  ![InsConsola](img/1Instalcionconsola.png)
+   E instaamos solo la consola
+   escribimos el nombre de usuario y pasword que se eligio anterior mente.
+
+  ![FirsTimeConfiguration](img/2Instalcionconsola.png)
+
+  En este punto puedes cmptobar la version que instalaras para este caso es checkpoint R80.10
+
+
+  ![DeploimentOptions](img/3Instalcionconsola.png)
+
+  En esta parte puedes Elegir instalar desde Checlpoint CLoud o desde USB, tambien para relaizar alguna recuperacion del sistema con el ultimo back up o snapshot que se haya guardado es importante realizar back ups cuandomenos una vez al mes para seguir con las mejores practias de fabricante
+
+  ![ManagementConections](img/4Instalcionconsola.png)
+
+  Aqui configuraremos las interfaces con la IP que definimos en el laboratorio,
+
+  eth0:      10.0.1.4
+
+  Mascara:  de 28
+  Nota en ip calc  http://jodies.de/ipcalc podemos calcular la mascara de forma rapida
+
+   255.255.255.240
+
+
+  ![DeviceInformacion](img/5Instalcionconsola.png)
+
+  Este es el nombre con el que identificaremos la consola
+  Nota no dejar espacios en el nombre, los demas datos se configuran solo si tienes DNS definidos. Damos Clck en next.
+
+  HOST NAME : PrimerConsola
+
+  ![DateandTimeSettings](img/6Instalcionconsola.png)
+
+  El tiempo es muy importante cuando se trabaja con clusters es importante para la comunicacion, verifica que esta en tu zona horaria de lo cntratio selecciona el simbolo A hacia abajo y elige el correcto de la lista.
+
+  ![InstalationType](img/7Instalcionconsola.png)
+
+  En esta ventana tu debes elegir que tipo de instalacion realizaras si firewall y consola o multi domine.
+
+  ![Products](img/8Instalcionconsola.png)
+  En esta ventana se debe especificar si realizaras una instalacion standalone o por separado consola o Fireall
+  para este caso elegimos solo Consola
+
+
+  ![SecurityAdministration](img/9Instalcionconsola.png)
+  Es importante que guardes esta informacion ya que cada ves que quieras acceder a la consola te solicitara esta inforamacion para mi caso yo use
+
+  Este es un administrador diferente de admin o sudo
+  User: Rake
+  Pw:   q1w2e3r4
+
+   ![SecurityManagementGUI](img/10Instalcionconsola.png)
+   Por el momento elegimos ¨ Any adress¨ para que nos permita configurarlo desde cualquier PC .
+
+  ![SumaryConfiguration](img/11Instalcionconsola.png)
+  En esta ventana puedes validar que solo instañaremos la consola.
+
+  ![SumaryConfiguration](img/12Instalcionconsola.png)
+    Nos pregunta si estas seguro de que quieres continuar con los cambios legimos ¨Yes¨.
+
+    ![SumaryConfiguration](img/13Instalcionconsola.png)
+    Comienza la instaacion e indica el porsentaje de avance.
+
+    ![SumaryConfiguration](img/14Instalcionconsola.png)
+
+    Al terminar si todo es correcto,  nos indicara una palomita en la ventana
+
+
+
+ponemos el default gateway que es la IP que  nos sacara de esa red en este caso 10.0.1.1
 Ponemos un administrador diferente de admin
 Rake
 Pw: q1w2e3r4
